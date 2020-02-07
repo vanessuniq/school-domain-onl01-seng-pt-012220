@@ -18,8 +18,8 @@ class School
   
   def sort 
     @roster.each  do |k, v|
-      (@roster[k]).sort
-      v.sort
+      (@roster[k]).sort!
+      v.sort!
     end
   
   end
