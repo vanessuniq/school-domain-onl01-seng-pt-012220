@@ -17,7 +17,8 @@ class School
   end
   
   def sort 
-    @roster.collect each do ||
+    @roster.collect each do |k, v|
+      k.sort
     end
   
   end
